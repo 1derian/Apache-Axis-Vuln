@@ -26,9 +26,6 @@ enableRemoteAdmin 设置为True , 默认是false
 ```
 tomcat +apache Axis 1.4 
 解压 axis.zip 放到tomcat目录下 webapp 下即可 , 里面的配置 , 已经配置好了
-
-github地址
-
 ```
 
 ![image-20220910103745320](https://picgo-1301783483.cos.ap-nanjing.myqcloud.com/imageimage-20220910103745320.png)
