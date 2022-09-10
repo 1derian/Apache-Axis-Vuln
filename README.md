@@ -28,7 +28,7 @@ tomcat +apache Axis 1.4
 解压 axis.zip 放到tomcat目录下 webapp 下即可 , 里面的配置 , 已经配置好了
 ```
 
-![image-20220910103745320](..\assets\imageimage-20220910103745320-16627967497663.png)
+![image-20220910103745320](./assets/imageimage-20220910103745320-16627967497663.png)
 
 然后访问
 
